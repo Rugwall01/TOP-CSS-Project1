@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+    height: 72px;
+}
+
+.container {
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    border: 2px;
+    border-color: black;
+    background-color: #1f2937;
+    width: 100vw;
+    border-style: solid;
+    height: ;
+
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+    height: 72px;
+}
+
