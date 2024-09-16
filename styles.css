@@ -2,6 +2,17 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: black;
+    align-items: center;
+}
+
+
+.header, .box1,
+.box2, .box3,
+.box4, .container {
+    padding-left: 150px;    
+    padding-right: 150px;
+    box-sizing: border-box;
 }
 
 .header {
@@ -9,17 +20,34 @@ body {
     align-items: center;
     background-color: #1f2937;
     height: 72px;
+    justify-content: space-between;
+    width: 1325px;
+    box-sizing: border-box;
 }
 
+.headerA {
+    display: flex;
+    gap: 12px;
+}
+.p0 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.a1 {
+    color: #f9faf8;
+
+}
 .container {
     flex: auto;
     align-items: center;
     justify-content: center;
-    border: 2px;
+    /*border: 2px;
     border-color: black;
-    border-style: solid;
+    border-style: solid;*/
     display: flex;
     flex-direction: column;
+    margin: 0px;
+    gap: 0px;
 
 }
 
@@ -27,20 +55,190 @@ body {
 .box2,
 .box3,
 .box4 {
-    border: 2px;
-    border-color: black;
+    /*border: 2px;
+    border-color: black; */
     background-color: #ffffff;
     width: 100vw;
-    border-style: solid;
+    /*border-style: solid;*/
     height: 100%;
     width: 100%;
+    
 
 }
 
 .footer {
     display: flex;
     align-items: center;
-    background-color: #1f2937;
+    background-color:#1f2937;
     height: 72px;
 }
 
+.box1 {
+    display: flex;
+    flex: 1;
+    background-color:  #1f2937;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.items {
+    display: flex;
+    width: 850px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    gap: 16px;
+}
+.item1 {
+    width: 450px;
+    height: 250px;
+}
+.p1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    width: 350px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 4px;
+}
+.p2 {
+    font-size: 18px;
+    color: #f9faf8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 4px;
+}
+.b1 {
+    height: 40px;
+    width: 130px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-size: medium;
+    font-weight: bolder;
+}
+.item2 {
+    display: flex;
+    flex-direction: column;
+    background-color:  #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    width: 450px;   
+    height: 250px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p4 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+
+}
+
+.box2a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+    width: 800px;
+    text-align: center;
+    gap: 32px;
+
+}
+
+.m {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.m p {
+    width: 145px;
+}
+.modal {
+    border: 4px solid #3882F6;
+    width: 160px;
+    height: 160px;
+    border-radius: 14px;
+}
+
+.box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}  
+
+.p5 {
+    width: 800px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.p5 strong {
+    font-size: 30px;
+}
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.modal1 {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 150px;
+    width: 1025px;
+    background-color: #3882F6;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    border-radius: 8px;
+    flex-shrink: 0;
+    justify-content: space-between;
+}
+
+.b2 {
+    height: 38px;
+    width: 130px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin-right: 120px;
+    border: 2px solid white;
+    color: #f9faf8;
+    font-size: medium;
+    font-weight: bolder;
+
+}
+
+.CTA {
+    display: flex;
+    flex-direction: column;
+    margin-left: 85px;
+    justify-content: center;
+
+}
+
+.p6, .p7 {
+    color: #f9faf8;
+    margin: 0;
+    padding: 0;
+}
+
+.p6 {
+    font-size: 24px;
+    font-weight: bolder;
+}
