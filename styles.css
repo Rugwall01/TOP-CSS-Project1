@@ -71,6 +71,15 @@ body {
     align-items: center;
     background-color:#1f2937;
     height: 72px;
+    flex-shrink: 0;
+    width: 1325px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.footer p {
+    color: #f9faf8;
+
 }
 
 .box1 {
@@ -84,7 +93,7 @@ body {
 
 .items {
     display: flex;
-    width: 850px;
+    width: 950px;
     margin-top: 64px;
     margin-bottom: 64px;
     gap: 16px;
@@ -122,8 +131,8 @@ body {
     background-color:  #e5e7eb;
     align-items: center;
     justify-content: center;
-    width: 450px;   
-    height: 250px;
+    width: 485px;   
+    height: 225px;
 }
 
 .box2 {
